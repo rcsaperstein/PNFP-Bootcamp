@@ -1,3 +1,53 @@
-// Place all the styles related to the Skills controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans|Merriweather);
+
+body {
+	background-color: #bdc3c7; 
+	font-family: "Merriweather", Serif; 
+	padding: 20px;
+}
+
+#container {
+	margin: 20px auto;
+	width: 800px;
+	text-align: center;
+}
+
+#content h1 {
+	font-size: 48px;
+	font-family: "Futura", "Helvetica", Sans-serif;
+	margin: 20px 0;
+}
+
+#content {
+	border: 2px solid #34495e;
+	padding: 20px;
+	margin-top: -30px; 
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px #888;
+}
+
+#container img {
+	border: 2px solid #34495e
+}
+
+a {
+	text-decoration: none;
+	color: #e67e22;	
+	transition: 1s all ease;
+}
+
+a:hover {
+	color: #c0392b;
+}
+
+h2 {
+	font-size: 28px;
+	font-family: "Futura", sans-serif;
+	margin: 10px 0;
+}
+
+p {
+	text-align: left;
+	margin-top: 10px;
+}
