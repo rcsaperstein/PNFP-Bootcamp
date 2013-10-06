@@ -9,7 +9,12 @@
 			I am looking to build a sample website in this class.
 		</p>
 		<div id="skills">
-			<h2> My skills </h2>
+			<h2> My skills and their descriptions: </h2>
+			<ul>
+				<% @skills.each do |skill| %>
+					<li><%= link_to skill.name, skill %>: <%= skill.description %></li>
+				<% end %>
+			</ul>
 		</div><!-- END #skills-->
 	</div><!-- END #content -->
 </div><!-- END #container -->
