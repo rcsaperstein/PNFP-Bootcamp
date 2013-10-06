@@ -1,1 +1,6 @@
-Hello world
+<% @skills.each do |skill| %>
+	<%= skill.name %>
+	<br>
+	<%= skill.description %>
+	<br>
+<% end %>
